@@ -1,0 +1,240 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3CF83B1F166DF42D005ED593 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3CF83B1E166DF42D005ED593 /* Foundation.framework */; };
+		3CF83B24166DF42D005ED593 /* AsiHttpRequestLibrary.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 3CF83B23166DF42D005ED593 /* AsiHttpRequestLibrary.h */; };
+		3CF83B26166DF42D005ED593 /* AsiHttpRequestLibrary.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CF83B25166DF42D005ED593 /* AsiHttpRequestLibrary.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		3CF83B19166DF42D005ED593 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/${PRODUCT_NAME}";
+			dstSubfolderSpec = 16;
+			files = (
+				3CF83B24166DF42D005ED593 /* AsiHttpRequestLibrary.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		3CF83B1B166DF42D005ED593 /* libAsiHttpRequestLibrary.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libAsiHttpRequestLibrary.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		3CF83B1E166DF42D005ED593 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		3CF83B22166DF42D005ED593 /* AsiHttpRequestLibrary-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AsiHttpRequestLibrary-Prefix.pch"; sourceTree = "<group>"; };
+		3CF83B23166DF42D005ED593 /* AsiHttpRequestLibrary.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AsiHttpRequestLibrary.h; sourceTree = "<group>"; };
+		3CF83B25166DF42D005ED593 /* AsiHttpRequestLibrary.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AsiHttpRequestLibrary.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3CF83B18166DF42D005ED593 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3CF83B1F166DF42D005ED593 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3CF83B10166DF42D005ED593 = {
+			isa = PBXGroup;
+			children = (
+				3CF83B20166DF42D005ED593 /* AsiHttpRequestLibrary */,
+				3CF83B1D166DF42D005ED593 /* Frameworks */,
+				3CF83B1C166DF42D005ED593 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3CF83B1C166DF42D005ED593 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3CF83B1B166DF42D005ED593 /* libAsiHttpRequestLibrary.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3CF83B1D166DF42D005ED593 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3CF83B1E166DF42D005ED593 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3CF83B20166DF42D005ED593 /* AsiHttpRequestLibrary */ = {
+			isa = PBXGroup;
+			children = (
+				3CF83B23166DF42D005ED593 /* AsiHttpRequestLibrary.h */,
+				3CF83B25166DF42D005ED593 /* AsiHttpRequestLibrary.m */,
+				3CF83B21166DF42D005ED593 /* Supporting Files */,
+			);
+			path = AsiHttpRequestLibrary;
+			sourceTree = "<group>";
+		};
+		3CF83B21166DF42D005ED593 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3CF83B22166DF42D005ED593 /* AsiHttpRequestLibrary-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3CF83B1A166DF42D005ED593 /* AsiHttpRequestLibrary */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3CF83B29166DF42D005ED593 /* Build configuration list for PBXNativeTarget "AsiHttpRequestLibrary" */;
+			buildPhases = (
+				3CF83B17166DF42D005ED593 /* Sources */,
+				3CF83B18166DF42D005ED593 /* Frameworks */,
+				3CF83B19166DF42D005ED593 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AsiHttpRequestLibrary;
+			productName = AsiHttpRequestLibrary;
+			productReference = 3CF83B1B166DF42D005ED593 /* libAsiHttpRequestLibrary.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3CF83B12166DF42D005ED593 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "Liu&Mao";
+			};
+			buildConfigurationList = 3CF83B15166DF42D005ED593 /* Build configuration list for PBXProject "AsiHttpRequestLibrary" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 3CF83B10166DF42D005ED593;
+			productRefGroup = 3CF83B1C166DF42D005ED593 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3CF83B1A166DF42D005ED593 /* AsiHttpRequestLibrary */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3CF83B17166DF42D005ED593 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3CF83B26166DF42D005ED593 /* AsiHttpRequestLibrary.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		3CF83B27166DF42D005ED593 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		3CF83B28166DF42D005ED593 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3CF83B2A166DF42D005ED593 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/AsiHttpRequestLibrary.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AsiHttpRequestLibrary/AsiHttpRequestLibrary-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		3CF83B2B166DF42D005ED593 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/AsiHttpRequestLibrary.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AsiHttpRequestLibrary/AsiHttpRequestLibrary-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3CF83B15166DF42D005ED593 /* Build configuration list for PBXProject "AsiHttpRequestLibrary" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3CF83B27166DF42D005ED593 /* Debug */,
+				3CF83B28166DF42D005ED593 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3CF83B29166DF42D005ED593 /* Build configuration list for PBXNativeTarget "AsiHttpRequestLibrary" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3CF83B2A166DF42D005ED593 /* Debug */,
+				3CF83B2B166DF42D005ED593 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3CF83B12166DF42D005ED593 /* Project object */;
+}
