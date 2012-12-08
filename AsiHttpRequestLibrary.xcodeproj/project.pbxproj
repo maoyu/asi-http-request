@@ -36,8 +36,6 @@
 		3CF83BB3166DF559005ED593 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3CF83BB2166DF559005ED593 /* CoreGraphics.framework */; };
 		3CF83BB5166DF565005ED593 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3CF83BB4166DF565005ED593 /* MobileCoreServices.framework */; };
 		3CF83BB7166DF56D005ED593 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3CF83BB6166DF56D005ED593 /* SystemConfiguration.framework */; };
-		3CF83BB9166DF57D005ED593 /* libxml2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 3CF83BB8166DF57D005ED593 /* libxml2.dylib */; };
-		3CF83BBB166DF584005ED593 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 3CF83BBA166DF584005ED593 /* libz.dylib */; };
 		3CF83BBD166DF58B005ED593 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3CF83BBC166DF58B005ED593 /* CFNetwork.framework */; };
 /* End PBXBuildFile section */
 
@@ -115,8 +113,6 @@
 		3CF83BB2166DF559005ED593 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		3CF83BB4166DF565005ED593 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
 		3CF83BB6166DF56D005ED593 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
-		3CF83BB8166DF57D005ED593 /* libxml2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.dylib; path = usr/lib/libxml2.dylib; sourceTree = SDKROOT; };
-		3CF83BBA166DF584005ED593 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
 		3CF83BBC166DF58B005ED593 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
@@ -126,8 +122,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				3CF83BBD166DF58B005ED593 /* CFNetwork.framework in Frameworks */,
-				3CF83BBB166DF584005ED593 /* libz.dylib in Frameworks */,
-				3CF83BB9166DF57D005ED593 /* libxml2.dylib in Frameworks */,
 				3CF83BB7166DF56D005ED593 /* SystemConfiguration.framework in Frameworks */,
 				3CF83BB5166DF565005ED593 /* MobileCoreServices.framework in Frameworks */,
 				3CF83BB3166DF559005ED593 /* CoreGraphics.framework in Frameworks */,
@@ -142,8 +136,6 @@
 			isa = PBXGroup;
 			children = (
 				3CF83BBC166DF58B005ED593 /* CFNetwork.framework */,
-				3CF83BBA166DF584005ED593 /* libz.dylib */,
-				3CF83BB8166DF57D005ED593 /* libxml2.dylib */,
 				3CF83BB6166DF56D005ED593 /* SystemConfiguration.framework */,
 				3CF83BB4166DF565005ED593 /* MobileCoreServices.framework */,
 				3CF83BB2166DF559005ED593 /* CoreGraphics.framework */,
@@ -430,6 +422,7 @@
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+				VALID_ARCHS = "armv7s armv7";
 			};
 			name = Debug;
 		};
@@ -443,6 +436,7 @@
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+				VALID_ARCHS = "armv7s armv7";
 			};
 			name = Release;
 		};
